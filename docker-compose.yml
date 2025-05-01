@@ -6,12 +6,14 @@ services:
     container_name: mysql-db
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: TravelJournal
+      MYSQL_ROOT_PASSWORD: Diamond162423
+      MYSQL_DATABASE: finalexamtrends
     ports:
       - "3306:3306"
     volumes:
       - dbdata:/var/lib/mysql
+    networks:
+      - travelnet
 
   backend:
     build: ./backend
@@ -29,7 +31,7 @@ services:
     build: ./frontend
     container_name: travel-frontend
     ports:
-      - "3000:3000"
+      - "3000:80"  
     depends_on:
       - backend
     networks:

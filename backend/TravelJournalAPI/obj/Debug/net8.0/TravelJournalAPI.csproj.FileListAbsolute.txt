@@ -109,3 +109,4 @@ C:\Users\arsha\OneDrive\Documents\Trends in tech\Final_Exam\backend\TravelJourna
 C:\Users\arsha\OneDrive\Documents\Trends in tech\Final_Exam\backend\TravelJournalAPI\obj\Debug\net8.0\TravelJournalAPI.pdb
 C:\Users\arsha\OneDrive\Documents\Trends in tech\Final_Exam\backend\TravelJournalAPI\obj\Debug\net8.0\TravelJournalAPI.genruntimeconfig.cache
 C:\Users\arsha\OneDrive\Documents\Trends in tech\Final_Exam\backend\TravelJournalAPI\obj\Debug\net8.0\ref\TravelJournalAPI.dll
+C:\Users\arsha\OneDrive\Documents\Trends in tech\Final_Exam\backend\TravelJournalAPI\obj\Debug\net8.0\TravelJournalAPI.sourcelink.json

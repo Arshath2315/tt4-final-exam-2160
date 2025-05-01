@@ -2,7 +2,7 @@
 # Step 1: Use the official ASP.NET Core runtime image for the base image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
-EXPOSE 80  # Expose port 80, which is the default for ASP.NET Core apps
+EXPOSE 80 
 
 # Step 2: Use the SDK image to build the app
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
